@@ -1,1 +1,11 @@
-
+MATHEMATICS OF NETWORKING
+---------------------------
+ 
+bits		Common Representation
+---		---------------------
+1		Bit/Flag
+4		Nibble
+8		Byte/Octet
+16		Half Word
+32		Word
+64		Double Word
