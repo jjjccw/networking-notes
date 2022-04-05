@@ -1,0 +1,7 @@
+OPENING NETWORK MAP
+--------------------
+
+http://10.50.20.75:8000/networkdiagram
+	^	link
+eom student_net_range_blue_only.png
+	^	from inside the internetHost
