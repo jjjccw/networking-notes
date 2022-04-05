@@ -1,11 +1,47 @@
 MATHEMATICS OF NETWORKING
 ---------------------------
  
-bits		Common Representation
----		---------------------
-1		Bit/Flag
-4		Nibble
-8		Byte/Octet
-16		Half Word
-32		Word
-64		Double Word
+	bits		Common Representation
+	---		---------------------
+	1		Bit/Flag
+	4		Nibble
+	8		Byte/Octet
+	16		Half Word
+	32		Word
+	64		Double Word
+
+
+BASE FORMATS
+-------------
+
+	Base 2 : Binary
+	Base 10: Normal
+	Base 16: Hex
+	Base64 : encoding
+
+
+ENCAPSULATION
+--------------
+
+	Headers are encapsulated as they move DOWN the OSI model (4 -> 1)
+
+	example image	:	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/PDU_SDU.png
+	
+OSI MODEL
+---------
+	
+	layer			name				PDU					common protocols
+	-----			-----				---					----------------
+	7			application			Data					ssh,HTTPS,dns
+	6			presentation			Data					unicode,most file extensions
+	5			session				Data					RPC, SOCKS
+	4			transport			Datagram(UDP) / Segment(TCP)		TCP / UDP
+	3			network				packet					IPv4,IPv6,ICMP,RIP/BGP/EIGRP
+	2			data link			frame					ARP
+	1			physical			bits					802.11 standards
+	
+
+
+	
+	
+	
