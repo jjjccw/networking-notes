@@ -96,7 +96,45 @@ LAYER 2 (DATA LINK)
 	
 	
 	
+LAYER 3 (NETWORK LAYER)
+-------------------------
+
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/IPv4_Header.png	:	IP header layout
 	
+	Version  ->  IHL  ->  DSCP  ->  ECN  ->  Total length  ->  identification  ->  Flags  ->  Fragment Offset  ->  TTL  ->  Protocol  ->  Header Checksum  ->  Source IP  ->  Target IP
+	
+	
+	FRAGMENTATION PROCESS
+	----------------------
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/Fragmentation.png	:	image explaining
+	
+		MF = More Fragments (indicates fragmented packets)
+		MTU = Maximum Transmission Unit (how much data is allowed in a single packet)
+
+
+	IPv6 HEADER
+	------------
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/IPv6_Header.png	:	example header
+	
+	
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/IPv4_vs_IPv6_Header.png		:	ipv6 vs ipv4 header
+	
+	
+	FINGERPRINTING
+	---------------
+	
+	Vendors have default TTL's built into them.
+		NOTE: these can be spoofed, must be VERIFIED
+	
+		OS		TTL
+		~~		~~~
+		Linux		64
+		Windows		128
+		Cisco		255
+	
+	
+	ICMP HEADER
+	-----------
 	
 	
 	
