@@ -27,6 +27,7 @@ ENCAPSULATION
 
 	example image	:	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/PDU_SDU.png
 	
+	
 OSI MODEL
 ---------
 	
@@ -38,10 +39,56 @@ OSI MODEL
 	4			transport			Datagram(UDP) / Segment(TCP)		TCP / UDP
 	3			network				packet					IPv4,IPv6,ICMP,RIP/BGP/EIGRP
 	2			data link			frame					ARP
-	1			physical			bits					802.11 standards
+	1			physical			bits					802.11 standards, cabling, hubs/repeaters
 	
 
 
+	https://www.iana.org/				:	internet assigned numbers authority
+	https://en.wikipedia.org/wiki/List_of_RFCs	:	IEEE RFC standards
+	
+	
+LAYER 1 (PHYSICAL)
+--------
+	
+	- Hardware Specifications
+	- Encoding and Signaling
+	- Data Transmission and Reception
+	- Physical Network Design
+	
+	
+LAYER 2 (DATA LINK)
+--------------------
+	
+	SUBLAYERS
+	---------
+	- MAC (Media Access Control)
+	- LLC (Logical Link Control)
+	
+	
+	ETHERNET HEADER
+	---------------
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/Ethernet_II_Frame.png	:	image of header
+	
+	5 total fields
+	
+	Preamble -> SFD -> Ethernet Frame (the diagram below is the ethernet frame)
+	
+		Preamble is 7 bytes of alternating 0's and 1's followed by 1 byte SFD delimiter 
+	
+	Destination Mac  ->  Source MAC  ->  Ethertype  ->  Payload/Data/SDU  ->  CRC/FCS
+	      |			|	      |			    |		      |
+	    6 Bytes	      6 Bytes       2 Bytes		46-1500 Bytes        4 Bytes
+	
+		Preamble of header and Start Frame Delimiter (which marks end of preamble) are stripped off in wireshark unless shown in promiscuous mode.
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
