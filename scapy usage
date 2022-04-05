@@ -1,6 +1,14 @@
 SCAPY
 -------
 https://github.com/secdev/scapy
+	^	official scapy github page
+	
+https://theitgeekchronicles.files.wordpress.com/2012/05/scapyguide1.pdf
+	^	unofficial guide
+	
+https://scapy.readthedocs.io/en/latest/introduction.html
+	^	scapy ReadTheDocs
+
 
 	What is scapy?
 		Scapy is a powerful Python-based interactive packet manipulation program and library.
