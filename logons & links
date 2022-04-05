@@ -14,3 +14,7 @@ LOGINS
 -----------
 
 	CTFD Logins	:	JAWA-003-M  (username & password)
+	Student#: student11
+	Command: ssh student@10.50.26.45 -X
+	Password: password
+
