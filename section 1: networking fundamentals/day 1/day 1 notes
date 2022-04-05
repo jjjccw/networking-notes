@@ -80,10 +80,19 @@ LAYER 2 (DATA LINK)
 	    6 Bytes	      6 Bytes       2 Bytes		46-1500 Bytes        4 Bytes
 	
 		Preamble of header and Start Frame Delimiter (which marks end of preamble) are stripped off in wireshark unless shown in promiscuous mode.
+		
+
+
 	
+	ARP HEADER
+	-----------
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/ARP_Header.png	:	example image
 	
+	ARP resolves IP addresses to MAC addresses
 	
-	
+	Hardware Type  ->  Protocol Type  ->  Hardware Address Length  ->  Protocol Address Length  ->  Operation  ->  Sender Hardware Address  ->  Sender Protocol Address  ->  Target Hardware Address  ->  Target Protocol Address
+	     |			|			|			       |		    |			|			    |				|				|	
+	  2 Bytes          2 Bytes  		      1 Byte			    1 Byte		 2 Bytes	     6 Bytes			 4 Bytes                     6 Bytes       		      4 Bytes
 	
 	
 	
