@@ -1,0 +1,85 @@
+SCAPY
+-------
+https://github.com/secdev/scapy
+
+	What is scapy?
+		Scapy is a powerful Python-based interactive packet manipulation program and library.
+		It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, store or read them using 
+		pcap files, match requests and replies, and much more. It is designed to allow fast packet prototyping by using default values that work.
+	
+	
+	https://github.com/secdev/scapy
+
+	
+	
+
+
+
+
+SCAPY IN-CLASS DEMO
+---------------------
+
+
+sudo scapy
+
+
+
+>>> a=Ether()
+>>> a.show()
+WARNING: Mac address to reach destination not found. Using broadcast.
+###[ Ethernet ]### 
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = fa:16:3e:78:f0:16
+  type      = 0x9000
+>>> a.type=0x0806	#changes to arp
+>>> a.show()
+WARNING: Mac address to reach destination not found. Using broadcast.
+###[ Ethernet ]### 
+  dst       = ff:ff:ff:ff:ff:ff
+  src       = fa:16:3e:78:f0:16
+  type      = ARP
+>>> b=ARP()
+>>> b.show()
+###[ ARP ]### 
+  hwtype    = 0x1
+  ptype     = IPv4
+  hwlen     = None
+  plen      = None
+  op        = who-has
+  hwsrc     = fa:16:3e:78:f0:16
+  psrc      = 10.10.0.40
+  hwdst     = 00:00:00:00:00:00
+  pdst      = 0.0.0.0
+>>> b=ARP()
+>>> b.show()
+###[ ARP ]### 
+  hwtype    = 0x1
+  ptype     = IPv4
+  hwlen     = None
+  plen      = None
+  op        = who-has
+  hwsrc     = fa:16:3e:78:f0:16
+  psrc      = 10.10.0.40
+  hwdst     = 00:00:00:00:00:00
+  pdst      = 0.0.0.0
+  
+>>> b.psrc= "10.10.0.15"
+>>> b.pdst= "10.10.0.20"
+>>> b.show()
+###[ ARP ]### 
+  hwtype    = 0x1
+  ptype     = IPv4
+  hwlen     = None
+  plen      = None
+  op        = is-at
+  hwsrc     = fa:16:3e:78:f0:16
+  psrc      = 10.10.0.15
+  hwdst     = 00:00:00:00:00:00
+  pdst      = 10.10.0.20
+>>> sendp(a/b, iface="eth0")
+.
+Sent 1 packets.
+>>> 
+
+
+
