@@ -136,6 +136,38 @@ LAYER 3 (NETWORK LAYER)
 	ICMP HEADER
 	-----------
 	
+	Inernet Control Message Protocol
+		- ping
+		- traceroute
+		
+	https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/ICMPHeader.png	:	ICMP header layout
+	
+	
+	ZERO CONFIGURATION
+	--------------------
+	
+	IPv4 Auto configuration
+		- APIPA
+		- RFC 3927
+		
+	IPv6 Auto Configuration
+		- SLAAC (Stateless address auto-configuration)
+		- RFC  4862
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
