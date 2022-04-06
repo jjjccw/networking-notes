@@ -1,5 +1,7 @@
 BERKELEY PACKET FILTERS
 ------------------------
+https://git.cybbh.space/net/public/-/blob/master/modules/networking/activities/1-Fundamentals/BPF_Syntax_Examples/bpf-syntax.adoc	:	epic
+
 
         0x0800 ethertype = IPv4
         0x0806 ethertype = ARP
@@ -18,6 +20,23 @@ F = Result of Expresion
 G = optional: Logical Operator (&& ||) to bridge expressions
 Example:
 tcpdump 'ether[12:2] = 0x0800 && (tcp[2:2] != 22 && tcp[2:2] != 23)'
+
+
+BITWISE MASKIng
+----------------
+
+	To filter down to the bit(s) and not just the byte
+	
+	ip[0] & 0x0F > 0x05
+
+
+
+
+
+
+
+
+
 
 
 
