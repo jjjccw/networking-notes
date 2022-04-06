@@ -1,0 +1,15 @@
+sudo tcpdump <options>
+
+OPTIONS
+--------
+
+-i			:	specifies interface
+-D			:	lists all interfaces available to use
+-x			:	displays packet data in hex and ascii
+-xx			:	same thing as -x but with ether header information
+-w <file>		:	writes to a file 
+-r <file>		:	reads packets from a file
+-v			:	verbose
+-vv			:	very verbose
+port <#> -vn		:	specifies port, does not convert addresses to names, verbose
+port <#> or <#> -vn	:	same as above, includes logical 'OR' for an additional port
