@@ -211,13 +211,13 @@ LAYER 2 SWTICHING TECHNOLOGIES
 
     	
     
-    
-    
-    
-    
-    
-    
-    
+BGP HIJACKING
+--------------
+	
+	- Illegitimiate advedrtising of addresses
+	- BGP propogates false information
+	- malicious for obvious reasons
+
     
     
     
