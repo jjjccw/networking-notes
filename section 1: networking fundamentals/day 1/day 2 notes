@@ -147,4 +147,82 @@ POP
 IMAP
 -----
 
+
+
+
+LAYER 2 SWTICHING TECHNOLOGIES
+------------------------------
+
+	CAM tables = mac address tables
+    		- can be flooded (fixed size in table)
+	
+
+	VLANS will need a routing table to communicate. They are used to logically seperate Local Area Networks (LAN's)
+		- VLAN Tag is at offset 14 and is 4 bytes
+		
+	
+		- 802.1AD "Q-in-Q" = a double tag
+		- 0x88A8 ethertype = standard double tag
+		- 0x9100 = non-standard double tag
+		
+		
+	Spanning Tree Protocol (STP)
+	----------------------------
+	- used to eliminate infinite routing loops/broadcast spams
+		1. elects root bridge
+		2. identifies the root ports on non-root bridge
+		3. identifies the designated port for each segment
+		4. sets alternate ports to blcoking state
+	
+	
+	LAYER 2 DISCOVERY PROTOCOLS
+	----------------------------
+	
+		promiscuous protocols that can be used to obtain information about devices
+		
+		- Cisco discovery protocol (CDP)
+		
+		- Foundry discovery protocol (FDP)
+		
+		- Link layer discovery protocol (LLDP)
+			^ vendor neutral discovery protocol endorsed by IEEE
+			
+		- Dynamic Trunking Protocol (DTP)
+		
+		- VLAN Trunking Protocol (VTP)
+	
+	
+	PORT SECURITY
+	--------------
+	
+		3 modes: shutdown, restrict, protect
+		
+	
+	LAYER 3 ROUTING TECHNOLOGIES
+	-----------------------------
+		
+		
+		
+		Routing Tables
+		------------------
+		S - Static route (manually added)
+	
+	
+
+    	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
