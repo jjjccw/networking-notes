@@ -13,3 +13,4 @@ OPTIONS
 -vv			:	very verbose
 port <#> -vn		:	specifies port, does not convert addresses to names, verbose
 port <#> or <#> -vn	:	same as above, includes logical 'OR' for an additional port
+-e                      :       print MAC addresses
