@@ -5,3 +5,37 @@ http://10.50.20.75:8000/networkdiagram
 	^	link
 eom student_net_range_blue_only.png
 	^	from inside the internetHost
+	
+	
+	
+T1
+Hostname: INTERNET_HOST
+External IP: 10.50.XXX.XXX (ALREADY PROVIDED)
+Internal IP: 10.10.0.40 (ALREADY PROVIDED)
+creds: student:password
+Action: Use as a pivot to access T2
+
+T2
+Hostname: BLUE_HOST-1
+IP: 172.16.82.106
+creds: student:password
+
+Action: Successfully perform a ARP MitM using Scapy
+
+T3
+Hostname: BLUE_HOST-4
+IP: 172.16.82.115
+creds: (none)
+Action: Suspected client recieving sensitive information
+
+T4
+Hostname: BLUE_POP-Router
+IP: 172.16.82.126
+creds: vyos:password
+Action: Gateway of the network
+
+
+
+
+send(Ether(dst=clientMAC)/ARP(op="who-has", psrc=gateway, pdst=client))
+
