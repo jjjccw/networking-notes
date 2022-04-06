@@ -19,4 +19,113 @@ G = optional: Logical Operator (&& ||) to bridge expressions
 Example:
 tcpdump 'ether[12:2] = 0x0800 && (tcp[2:2] != 22 && tcp[2:2] != 23)'
 
-        
+
+
+
+LAYER 4 (TRANSPORT LAYER)
+ ---------------------------
+ 
+ 
+ 
+	- TCP/UDP
+	- 'Connectionless' = UDP
+	
+	TCP FLAGS
+	----------
+	
+	32	URG
+	16	ACK
+	8	PSH
+	4	RST
+	2	SYN
+	1	FIN
+	
+	3-WAY HANDSHAKE
+	-----------------
+	SYN, SYN/ACK, ACK
+	
+
+LAYER 5 (SESSION LAYER)
+-----------------------
+
+	SOCKS (TCP PORT 1080)
+	
+	PPTP (TCP PORT 1723
+	
+	L2TP (TCP 1701)
+	
+	RPC (ANY PORT)
+
+	
+LAYER 6 (PRESENTATION LAYER)
+----------------------------
+
+	
+LAYER 7 (APPLICATION LAYER)
+----------------------------
+	
+
+	FTP ACTIVE
+	-----------
+	
+		SERVER			CLIENT
+		~~~~~~			~~~~~~
+		20 (DATA)	->	1030
+		21		->	1029
+	
+	
+	FTP PASSIVE
+	
+		SERVER			CLIENT
+		~~~~~~~		~~~~~~
+		21 (CMD)	->	1029
+		2020		->	1030
+		
+		***	edit this section with more clarification later	***
+		
+		
+SSH ARCHITECTURE 2
+-------------------
+	
+	User Ke	-	asymmetric punlic key used to identify the user to the server
+	Host key	-	asymmetric public key used to identify the server to the user
+	session key	-	symmetric key used by the client
+
+
+TELNET
+-------
+
+
+	TCP PORT 23
+	
+	
+SMTP
+------
+
+	TCP PORT 25 (Simple Mail Transfer protocol)
+	
+
+TACACS
+-------
+
+	TCP PORT 49
+	
+HTTP(S)
+--------
+
+
+	TCP PORTS 80/443 respectively
+	
+	Get /HEAD / POSt / PUT
+
+	Status codes 100, 200, 300, 400
+	
+POP
+----
+
+	Post Office Protocol
+	
+IMAP
+-----
+
+    
