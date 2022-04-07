@@ -1,0 +1,7 @@
+
+
+Basic analysis TTL		:	ip[8]<=64||ip6[7]<=64
+Basic analysis dont fragment	:	ip[6]&0x40!=0
+basic analysis high port	:	tcp[0:2]>1024||udp[0:2]>1024
+basic analysis udp		:	ip[9]=0x11||ip6[6]=0x11
+basic analysis tcp flags	:	
