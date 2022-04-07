@@ -1,2 +1,13 @@
-
-gg
+SOCKETS
+--------
+	- A socket is one endpoint of a two way communication link between two programs running on the network. Sockets provide a means of inter-process
+	communication (IPC) by establishing named contact points between which the communication take place.
+	
+	User Space Sockets 
+		- stream sockets
+		- datagram sockets
+	
+	Kernel Space Sockets
+		- Raw Sockets
+		
+	
