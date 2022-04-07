@@ -9,7 +9,7 @@ port = 54321
 #s.connect((ipaddr, port)) #not applicable to dgram sockets
 
 
-# To send a stringa s a bytes-like object, add the prefix 'b' to the string. \n is used to go to the next line
+# To send a string as a bytes-like object, add the prefix 'b' to the string. \n is used to go to the next line
 
 s.sendto(b'Hello\n', (ipaddr, port))
 
