@@ -1,0 +1,102 @@
+NETWORK RECONNAISSANCE
+-----------------------
+https://git.cybbh.space/net/public/raw/master/modules/networking/slides/images/Recon2.png	:	image of netrecon chart
+
+4 types:
+
+	Active
+	Passive
+	Internal
+	External
+	
+PASSIVE RECONNAISSANCE
+------------------------
+Involves identifying:
+
+	- IP addresses and Sub-Domains
+	- External and 3rd party sites
+	- People and Technologies
+	- Content of Interest
+	- Vulnerabilities
+	
+	
+Possible tools for gathering:
+	- WHOIS queries
+	- Job site listings
+	- Phone Numbers
+	- Google searches
+	- passive OS fingerprinting
+
+
+DIG
+-----
+
+dig <FQDN> <record>
+
+	RECORDS
+	-------
+		A Record
+		CNAME
+		MX Entry
+		TXT Record
+		SRV Record
+		AAAA Record
+		DNS Glossary
+
+OSINT
+------
+
+	shodan
+	archive.org wayback machine
+	google dorking
+
+
+
+NETWORK SCANNING
+-----------------
+
+	Scanning Approaches
+	```````````````````
+	Aim
+		- Wide range target scan
+		- Target specific scan
+
+	Method
+		- Single source scan
+		- Distributed scan
+		
+		
+	Network Scanning
+	``````````````````
+		- Broadcast Ping and Ping sweep
+		- ARP scan
+		- SYN scan
+		- Full connect scan
+		- Null scan
+		- FIN scan
+		- XMAS tree scan
+		- UDP scan
+		- Idle scan
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
