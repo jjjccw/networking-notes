@@ -1,0 +1,419 @@
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    loopback lo {
+        address 120.0.0.2/32
+    }
+}
+nat {
+    source {
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    loopback lo {
+        address 120.0.0.2/32
+    }
+}
+nat {
+    source {
+        rule 100 {
+            outbound-interface eth0
+            source {
+            }
+            translation {
+                address masquerade
+            }
+        }
+    }
+}
+protocols {
+    ospf {
+        area 0 {
+            network 172.16.120.8/30
+            network 172.16.120.4/30
+            network 120.0.0.2/32
+        }
+        area 0.0.0.0 {
+            authentication md5
+        }
+    }
+}
+service {
+    cloudinit {
+        environment openstack
+    }
+    ssh {
+        allow-root
+        port 22
+    }
+}
+system {
+    config-management {
+        commit-revisions 20
+    }
+    console {
+        device ttyS0 {
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    loopback lo {
+        address 120.0.0.2/32
+    }
+}
+nat {
+    source {
+        rule 100 {
+            outbound-interface eth0
+            source {
+            }
+            translation {
+                address masquerade
+            }
+        }
+    }
+}
+protocols {
+    ospf {
+        area 0 {
+            network 172.16.120.8/30
+            network 172.16.120.4/30
+            network 120.0.0.2/32
+        }
+        area 0.0.0.0 {
+            authentication md5
+        }
+    }
+}
+service {
+    cloudinit {
+        environment openstack
+    }
+    ssh {
+        allow-root
+        port 22
+    }
+}
+system {
+    config-management {
+        commit-revisions 20
+    }
+    console {
+        device ttyS0 {
+            speed 9600
+        }
+    }
+    host-name RED-IPS
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.5/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.120.10/30
+        description REDNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    loopback lo {
+        address 120.0.0.2/32
+    }
+}
+nat {
+    source {
+        rule 100 {
+            outbound-interface eth0
+            source {
+            }
+            translation {
+                address masquerade
+            }
+        }
+    }
+}
+protocols {
+    ospf {
+        area 0 {
+            network 172.16.120.8/30
+            network 172.16.120.4/30
+            network 120.0.0.2/32
+        }
+        area 0.0.0.0 {
+            authentication md5
+        }
+    }
+}
+service {
+    cloudinit {
+        environment openstack
+    }
+    ssh {
+        allow-root
+        port 22
+    }
+}
+system {
+    config-management {
+        commit-revisions 20
+    }
+    console {
+        device ttyS0 {
+            speed 9600
+        }
+    }
+    host-name RED-IPS
+    login {
+        user root {
+            authentication {
+                encrypted-password ****************
+                plaintext-password ****************
+            }
+            level admin
+        }
+        user vyos {
+            authentication {
+                encrypted-password ****************
