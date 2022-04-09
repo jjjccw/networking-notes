@@ -1,0 +1,120 @@
+vyos@RED-POP:~$ show configuration 
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.9/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.9/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.182.126/27
+        description REDHOSTS
+    }
+    ethernet eth2 {
+        address 172.16.140.6/30
+        description REDINTDMZ
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.120.9/30
+        description INTERNET
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.182.126/27
+        description REDHOSTS
+    }
+    ethernet eth2 {
+        address 172.16.140.6/30
+        description REDINTDMZ
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    loopback lo {
+        address 120.0.0.3/32
+    }
+}
+nat {
+    source {
+        rule 100 {
+            outbound-interface eth0
+            source {
+            }
+            translation {
+                address masquerade
+            }
+        }
+    }
+}
+protocols {
+    ospf {
+        area 0 {
+            network 172.16.182.96/27
+            network 172.16.140.4/30
+            network 172.16.120.8/30
+            network 120.0.0.3/32
+        }
+        area 0.0.0.0 {
+            authentication md5
+        }
+        parameters {
+            router-id 120.0.0.3
+        }
+        redistribute {
+            connected {
+                metric-type 2
+            }
+        }
+    }
+}
+service {
+    cloudinit {
