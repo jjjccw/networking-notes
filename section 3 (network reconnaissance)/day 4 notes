@@ -79,7 +79,43 @@ NETWORK SCANNING
 		- FIN scan
 		- XMAS tree scan
 		- UDP scan
-		- Idle scan
+		- Idle scan	(DIFFERENT FROM IDLE SCAN)
+		- ACK/Window scan
+		- RPC scan
+		- FTP scan
+		- decoy scan
+		- OS fingerprinting scan
+		- version scan
+		- Protocol ping 
+		- Discovery probes
+		- SCTP INIT scan
+		
+
+
+NMAP SCANS
+-----------
+
+	nmap [options] [target_IP/CIDR]
+	
+	nc [options] [target_ip] [target port]
+
+	OPTIONS
+	-------
+	
+	-Pn	:	no ping sweep
+	-T5	:	fast scan
+	
+	
+	
+	
+wget
+-----
+
+	wget <ip> -r
+		^	gets all the files
+		
+
+	
 	
 	
 	
