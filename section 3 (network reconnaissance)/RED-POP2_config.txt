@@ -1,0 +1,49 @@
+vyos@RED-POP2:~$ show configuration 
+interfaces {
+    ethernet eth0 {
+        address 172.16.140.5/30
+        description REDINTDMZ
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+:
+interfaces {
+    ethernet eth0 {
+        address 172.16.140.5/30
+        description REDINTDMZ
+        ip {
+            ospf {
+                authentication {
+                    md5 {
+                        key-id 120 {
+                            md5-key ****************
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ethernet eth1 {
+        address 172.16.140.62/27
+        description REDINTDMZ2
+    }
+    loopback lo {
+        address 120.0.0.4/32
+    }
+}
+nat {
+    source {
+        rule 100 {
+            outbound-interface eth0
+            source {
+            }
+            translation {
+                address masquerade
+            }
+        }
+    }
+}
+:
