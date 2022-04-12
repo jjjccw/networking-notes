@@ -1,1 +1,25 @@
+FILE DESCRIPTORS
+-----------------
 
+	- equivalanet to STDOUT, STDIN, STDERR
+	- /proc
+
+
+
+SCP
+---
+
+-v - verbose mode
+-p - provides estimated time and connection speed
+-P - port – Specifies the port to connect to on the remote host. Note that this option is written with a capital ‘P’.
+-C - enable compression
+-l - limit bandwidth (counted in bits, ex: 100KB/s (100*8), specify the parameter as 800)
+-r - recursively copy an entire directory
+-3 - copies between two remote hosts are transferred through the localhost. 
+     without this option the data is copied directly between the two remote hosts.  Note that this option disables the progress meter.
+     
+     
+     
+     
+    
+    
