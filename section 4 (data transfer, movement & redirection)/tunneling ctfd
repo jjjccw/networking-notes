@@ -1,0 +1,6 @@
+tunnels training local practice
+---------------------------------
+
+tunnel:		inethost >> ssh net1_student11@10.50.29.96 -L 11100:10.3.0.27:80 -NT
+		## new terminal ##
+		inethost >> firefox localhost:11100
