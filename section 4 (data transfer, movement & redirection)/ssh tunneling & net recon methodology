@@ -77,6 +77,7 @@ GUNNY!
 
 inethost >> ssh user@<ip>
 inethost >> exit
+inethost >> user@localhost -p 11101 -D 9050 -NT		##((Dynamic tunnels rock!)
 inethost >> ssh user@<ip_A> -D 9050 -NT
 inethost >> proxychains ./scan.sh
 inethost >> ssh user@<ip_A>
@@ -84,7 +85,11 @@ ip_A	 >> ssh user@<ip_B>
 ip_B	 >> exit
 ip_A	 >> exit
 inethost >> ssh user@<ip_A -L 11100:<ip_B>:22 -NT
-inethost >> ssh user@localhost -p 11100  ((you are now at ip_B))
+inethost >> ssh user@localhost -p 11100  		##((you are now at ip_B))
+ip_B	 >> ssh user@<ip_C> -p 7777 			##((you are now at C - do passive recon!)
+inethost >> ssh user@localhost -p 11100 -L 11101:<ip_C>:7777 -NT 
+inethost >> ssh user@localhost -p 11101
+
 
 
 
