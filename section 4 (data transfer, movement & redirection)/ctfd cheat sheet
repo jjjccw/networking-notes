@@ -15,6 +15,8 @@ Hostname: Atropia
 creds: net3_student11:password11
 Known Ports: 22(ssh)
 
+ ssh net3_student11@10.50.29.96
+
 =============================================================================
 
 T4  - (10.50.21.23)
