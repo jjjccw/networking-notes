@@ -1,0 +1,70 @@
+CREDENTIALS
+------------
+
+net3_student11:password11
+
+##  netY_studentX:passwordX
+##  (netY = Networking Class Identifier & studentX = Student Number & passwordX = Student Number)
+
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+T3  - (10.50.29.96)
+~~~~~~~~~~~~~~~~~~~~~
+Hostname: Atropia
+creds: net3_student11:password11
+Known Ports: 22(ssh)
+
+=============================================================================
+
+T4  - (10.50.21.23)
+~~~~~~~~~~~~~~~~~~~~~
+Hostname: Pineland
+IP: 10.50.21.23
+creds: net3_student11:password11 
+Known Ports: 23(telnet - go directly from T1 to T4 to simulate compromising the machine)
+Type: Compromised Donovian System
+
+
+
+
+
+
+
+
+
+
+
+
+CTFD PROMPT
+-----------------------
+
+Task 3 Tunnel Training
+
+
+Utilize the targets T3, and T4 to develop ssh tunneling capabilities for use by Gorgan Cyber Forces:
+
+
+They have provided three practice challenges to get you started.
+T3 is your designated initial Pivot from your INTERNET_HOST
+
+When creating tunnels your authorized port ranges to utilize are:
+NssXX
+N = Net Number (1-4)
+ss = Student Number (01-99)
+XX = Selected port Number (00-99)
+
+e.g. :
+net-1, student 1, port forward 1 = 10101
+net-2, student 1, port forward 2 = 20102
+net-3, student 10, port forward 5 = 31005
+net-4, student 12, port forward 10 = 41210
+
+
+Create valid ssh Local Port Forward to leverage for follow-on actions
+
+Create valid ssh Remote Port Forward to leverage for follow-on actions
+
+Create valid ssh Dynamic Port Forward to leverage for follow-on actions
+
+To help validate these technical capabilities Gorgan Cyber Forces have established a training range and have placed various flags within. As you successfully develop capabilities your team will find associated flags to validate they work.
