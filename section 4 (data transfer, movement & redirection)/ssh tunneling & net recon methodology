@@ -1,0 +1,112 @@
+LOCAL FORWARDING
+------------------
+
+ssh -p <optional alt port> <user>@<pivot ip> -L <local bind port>:<tgt ip>:<tgt port> -NT
+
+ssh -L <local bind port>:<tgt ip>:<tgt port> -p <alt port> <user>@<pivot ip> -NT
+
+SSH LOCAL PORT
+--------------
+ssh student@localhost
+ssh localhost -p
+
+
+
+NET RECON METHODOLOGY
+---------------------
+
+1.	Host Discovery (scan script, nmap, ping sweep)
+2.	Port Discovery (scan script, nmap, netcat)
+3.	Port Validation (banner grabbing w/ netcat)
+4.	Follow on actions (based on ports found)
+~~~~~~~~
+	4a.	port 22 or 23: connect to it and do PASSIVE RECON
+	4b.	port 21 or 80: wget -r <ip> || wget -r ftp::/<ip>
+~~~~~~~~
+
+	
+PASSIVE RECON METHODOLOGY
+--------------------------
+1.	Hostname: hostname
+2.	Other listening ports: ss -nltp || netstat
+3.	Other interfaces/subnets: ifconfig || ip a
+4.	Files of interest (find)
+5.	Tools (which <nmap, nc, tcpdump, wireshark, wget, telnet)
+6.	Ping sweep: for i in {1..254}; do ping -c 1 192.168.0.$i | grep 'from'
+
+
+
+DYNAMIC PORT FORWARDING
+------------------------
+ssh mike@localhost -p 1111 -D 9050 -v -NT
+
+
+
+
+SECOND PIVOT NET RECON
+internet_host$ ssh john@[float ip] -D 9050 -NT
+internet_host$ proxychains ./scan.sh
+
+
+
+THIRD PIVOT NET RECON
+----------------------
+internet_host$ ssh john@[float ip] -L 1111:104.16.181.15:22 -NT
+internet_host$ ssh jack@localhost -p 1111 -D 9050 -NT
+internet_host$ proxychains ./scan.sh
+
+
+
+
+PORT NOMENCLATURE
+------------------
+11100-11199   ((my range))
+
+
+
+
+
+
+
+
+
+
+GUNNY!
+--------
+
+
+inethost >> ssh user@<ip>
+inethost >> exit
+inethost >> ssh user@<ip_A> -D 9050 -NT
+inethost >> proxychains ./scan.sh
+inethost >> ssh user@<ip_A>
+ip_A	 >> ssh user@<ip_B>
+ip_B	 >> exit
+ip_A	 >> exit
+inethost >> ssh user@<ip_A -L 11100:<ip_B>:22 -NT
+inethost >> ssh user@localhost -p 11100  ((you are now at ip_B))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
