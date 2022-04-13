@@ -96,6 +96,9 @@ inethost >> ssh user@localhost -p 11101
 SSH REMOTE PORT FORWARDING
 ---------------------------
 
+inethost >> telnet <ip_A>
+ip_A	 >> user@10.50.X.X -R 11199:localhost:22 -NT
+inethost >> ssh user@localhost -p 11199			##(you are at A)
 
 
 
