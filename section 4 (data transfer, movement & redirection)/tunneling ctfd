@@ -1,3 +1,26 @@
++-------GENERAL------------------------------------------+
+
+sudo proxychains bash  ncScript.sh
+	^	running scan script from proxychains
+
+
+hint.txt: 
+You have accessed the Atlantica government server. There is nothing interesting on this server, however, it used to have access to the 10.4.0.0/24 and 
+10.5.0.0/24 networks until the admins shut it down. Try to access those networks through another way.
+
+
+
++--------------------------------------------------------+
+
+
+
+
+
+
+
+
+
+
 tunnels training local practice
 ---------------------------------
 
@@ -22,11 +45,18 @@ tunnels training remote practice
 
 tunnels		inethost >> telnet 10.50.21.23 		##pineland insider
 		pineland >> ssh net1_student11@10.3.0.10 -R 11102:localhost:22 -NT
+		
 		##new terminal##
+
+		
 		inethost >> ssh net1_student11@10.50.29.96 -L 11102:localhost:11102 -NT
+		
 		##new terminal##
+		
 		ssh net1_student11@localhost -p 11102 -L 11103:10.2.0.2:80 -NT
+		
 		##new terminal##
+		
 		curl http://localhost:11103
 		
 			^	gives flag
