@@ -1,0 +1,5 @@
+find / -iname "*.pcap" 2>/dev/null 
+find / -iname "hint*" 2>/dev/null
+find / -iname "flag*" 2>/dev/null
+ip neigh | egrep -v "FAILED"
+ss -ntlp4
