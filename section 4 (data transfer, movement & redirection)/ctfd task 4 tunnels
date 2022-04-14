@@ -10,6 +10,12 @@ tunnels:	inethost 	>> telnet 10.50.25.34
 
 
 
+	telnet 10.50.25.34
+	ssh student@10.50.26.45 -R 11190:localhost:22 -v -NT
+	ssh net1_student11@localhost  -D 9050 -p 11190 -v -NT
+	proxychains ssh net1_student11@192.168.0.20 -p 3333
+	proxychains scp -P 3333 net1_student11@192.168.0.20:/srv/ftp/flag.png /home/student
+
 
 
 data collection 1st pivot flag
