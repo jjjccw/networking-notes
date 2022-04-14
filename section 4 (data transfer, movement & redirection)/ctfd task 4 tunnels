@@ -15,6 +15,13 @@ tunnels:	inethost 	>> telnet 10.50.25.34
 data collection 1st pivot flag
 ----------------------------------
 
+192.168.0.20 hint: SSH is using an alternate port above the wll known ports. Use banner grabbing to figure it out so you pivot to the next machine that only this one
+      has access to.
+
+192.168.0.30 hint: The flag on this machine is a non-well known TCP port following a similar scheme as net-ssh-02 ports but higher. You must connect to it somehow
+
+192.168.0.40 hint: This machine has access to the 172.16.0.0/24 network. You will have to find the alternate sshd port like on net-ssh-02 to progress.
+
 
 tunnels:	
 
