@@ -1,0 +1,6 @@
+tcpdump -r tcpconnect_scan.pcap "tcp[13] = 0x02" | awk '{print $3}' | cut -d. -f1,2,3,4 | sort | uniq -c
+	|````````````````````````````````````````````````````````````````````````````````````````````````````
+	+------	finds the host performing a scan in the pcap and how many connections were attempted
+	
+	
+	
