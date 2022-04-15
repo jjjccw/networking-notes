@@ -35,6 +35,9 @@ tunnels:
 172.16.0.60 hint 2: This machine is a possible pivot to access more machines in the newtork, but ssh is not open to hosts outside of this network.
 
 
+172.16.0.80 hint: to get the flag for this machine, you will need to look for and connect to the port commonly used for RDP
+172.16.0.70 hint: to get the flag for net ssh 7, you will need to look for and connect to a port commonly used with leet speak
+
 
 pivoting to the 192.168.0.50
 ------------------------------
