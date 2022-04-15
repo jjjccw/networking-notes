@@ -28,9 +28,21 @@ data collection 1st pivot flag
 
 192.168.0.40 hint: This machine has access to the 172.16.0.0/24 network. You will have to find the alternate sshd port like on net-ssh-02 to progress.
 
-
+192.168.0.50 hint: The flag for this machine is on another open port. Also all IP addresses are multiples of 10 for the last octet.
 tunnels:	
 
+172.16.0.60 hint: The flag is the hex representation of the VLan Tag protocol Id in th ethernet header
+
+
+
+pivoting to the 192.168.0.50
+------------------------------
+
+inethost >> telnet 10.50.25.34
+net-ssh-01 >> ssh student@10.50.26.45 -R 11195:localhost:22 -v -NT
+inethost >> ssh net1_student11@localhost -p 1119 -L 11102:192.168.0.20:3333 -NT
+inethost >> ssh net1_student11@localhost -p 11102 -D 9050 -NT
+inethost >> proxychains wget -r 192.168.0.50
 
 
 
