@@ -38,6 +38,8 @@ tunnels:
 172.16.0.80 hint: to get the flag for this machine, you will need to look for and connect to the port commonly used for RDP
 172.16.0.70 hint: to get the flag for net ssh 7, you will need to look for and connect to a port commonly used with leet speak
 
+172.16.0.90 hint: This is the only machine that can reach ne-ssh-10. You will have to use an alternate ssh port on this machie to identify ports on the final machine.
+
 
 pivoting to the 192.168.0.50
 ------------------------------
