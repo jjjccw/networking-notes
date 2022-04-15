@@ -32,6 +32,7 @@ data collection 1st pivot flag
 tunnels:	
 
 172.16.0.60 hint: The flag is the hex representation of the VLan Tag protocol Id in th ethernet header
+172.16.0.60 hint 2: This machine is a possible pvot to access mre machine in the newtork, but ssh is not open to hosts outside of this network.
 
 
 
