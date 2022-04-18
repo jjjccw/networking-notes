@@ -1,0 +1,77 @@
+NFTABLES
+----------
+nft (add | create) chain [<family>] <table> <name> [ { type <type> hook <hook> [device <device>] priority <priority> \; [policy <policy> \;] } ]
+
+
+
+
+
+
+
+
+
+
+IPTABLES
+----------
+
+iptables -t [table] -A [chain] [rules] -j [action]
+	^	basic syntax
+
++--------------------------------------[COMMON EXAMPLES]-----------------------------------------------+
+
+iptables -t [table] -F
+	^	flush table
+
+iptables -t [table] -P [chain] [action]
+	^	change default policy
+
+
+iptables -t [table] -L --line-numbers
+	^	list rules with rule numbers
+	
+iptables -t [table] -I [chain] [rule num] [rules] -j [action]
+	^	insert rule before rule number
+	
+iptables -t [table] -R [chain] [rule num] [rules] -j [action]
+	^	replaces rule at number
+	
+iptables -t [table] -D [chain] [rule num]
+	^ deletes rule at number
+	
+	
++--------------------------------------------------------------------------------------------+	
+
+	
+	additional options
+	-------------------
+-A 		:	append a rule (bottom of list)
+
+-I		:	Insert a rule (top of list)
+
+-D		:	delete a rule. syntax: iptables -D [chain] [rule_#]
+
+-L		:	lists the rules by chains
+
+-P		:	changes the default policy for a chain. Syntax is iptables -P [chain] [target]
+
+-S		:	show rules
+
+-P		:	list a protocol (tcp, icmp, sctp and others)
+
+--sport		:	specify source port
+
+--dport		:	specify destination port
+
+-d		:	destination address
+
+-s		:	source address
+
+-j		:	jump to target action
+
+-n		:	displays port number vice protocol
+
+-t		:	specifies a table, default is filter.
+
+--line numbers	:	prints the rule number in the output
+
+========================================================================================================================================================
