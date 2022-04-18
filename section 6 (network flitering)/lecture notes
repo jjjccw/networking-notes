@@ -75,3 +75,62 @@ iptables -t [table] -D [chain] [rule num]
 --line numbers	:	prints the rule number in the output
 
 ========================================================================================================================================================
+
+
+
+
+
+NAT & PAT
+--------------
+
+** direction is important **
+
+	operator			chains
+	`````````			```````
+	snat				postrouting, input
+
+	masquerade			postrouting
+
+	dnat				prerouting, output
+
+	redirect			prerouting, output
+
+
+
+
+
+	destination nat w/ iptables
+	----------------------------
+	iptables -t nat -A PREROUTING -i eth0 -j DNAT --to 10.0.0.1
+	
+		+-------------------------------+
+		trick: prerouting, inbound, DNAT/DPAT 
+		+-------------------------------+
+
+=====================================================================================
+
+	source pat w/ iptables
+	-----------------------
+	
+	iptables -t nat -A postrouting -p tcp -o eth0 -j SNAT --to 1.1.1.1:9001
+	
+		+--------------------------------+
+		postrouting, outboumd, SNAT/SPAT
+		+--------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
