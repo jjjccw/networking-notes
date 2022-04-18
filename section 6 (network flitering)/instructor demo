@@ -1,0 +1,142 @@
+IPTABLES DEMO
+---------------
+
+inethost >> sudo iptables -L
+	^	list policy for default policy
+	
+inethost >> sudo iptables -t <nat,filter,mangle> -L 
+	^	lists specified policy
+	
+inethost >> sudo iptables -F
+	^	flishes default policy
+	
+inethost >> iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+	^	-A action is input, -p protocol is TCP, --dport is destination port 22 (ssh), -j does ACCEPT
+	
+inethost >> iptables -A INPUT -p tcp --sport 22 -j ACCEPT
+	^	same as above, changes source port
+	
+inethost >> iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+	^	same as above, but uses output instead of input
+	
+inethost >> sudo iptables -L --linenumbers 
+	^	shows rules with their linenumbers (easily reference their rule numbers)
+	
+inethost >> sudo iptables -P INPUT DROP
+	^	6010,6011,6012 are ports for terminator, so this actually kills your terminator session since terminator wasnt specified to be accepted
+	
+inethost >> sudo iptables -A INPUT -m multiport -p tcp --port 6010,6011,6012 -j ACCEPT
+	^	-A append, to INPUT chain, -m match multiport, -j jump to (do) ACCEPT
+	
+inethost >> iptables -P OUTPUT DROP 
+	^	changes output hook policy to drop
+	
+inethost >> iptables -P FORWARD DROP
+	^	changes forward hook policy to drop
+	
+inethost >> iptables -I INPUT -s 172.16.82.106 -j ACCEPT
+	^	inserts into INPUT chain an ACCEPT rule for all traffic from SOURCE 172.16.82.106
+	
+	
++-------------------------------+		     
+sudo iptables -P INPUT ACCEPT	| 
+				|>---------------------------- do this before you flush your tables so you can maintain ssh access into inethost
+sudo iptables -P OUTPUT ACCEPT	|
++-------------------------------+
+
+
+
+
+
++-----------------------------------------+
+sudo iptables-save > myfirewall.conf      |
+					  |>------------------------------save and restore a firewall policy by sending it to an output file
+sudo iptables-restore < myfirewall.conf   |
++-----------------------------------------+
+
+
+
+========================================================================================================================================================
+
+** use capitalization for names so keep track of syntax  **
+
+
+NFTABLES DEMO
+--------------
+
+sudo nft list tables
+	^	list your nftables
+	
+sudo nft list table ip filter 
+	^	lists a specific table
+	
+sudo nft add table ip CCTC
+	^	adds a table
+	
+sudo nft list table ip cctc
+	^	lists the newly created cctc ip table (currently empty)
+	
+sudo nft delete table ip filter
+	^	deletes the filter ip table
+
+sudo nft delete table ip CCTC
+	^	deletes the cctc ip table
+	
+sudo nft flush table ip nat
+	^	flushes the nat chain of the ip table
+	
+sudo nft add table ip FILTER
+	^	adds the 'FILTER' ip table
+
+sudo nft list table ip FILTER
+	^	lists the newly created 'FILTER' ip table
+	
+sudo nft add chain ip FILTER INPUT { type filter hook input priority 0 \; policy accept \; }
+	^	remember the hook is the most important part! in this case the 'input' hook
+	^	adds the 'INPUT' chain to the 'FILTER' ip table. specifies a filter, with an input hook, and sets default policy to accept
+	
+sudo nft add chain ip FILTER OUTPUT { type filter hook output priority 0 \; policy accept \; }
+	^	same as above but uses an OUPUT hook
+	
+sudo nft delete chain ip FILTER INPUT { type filter hook input poriority 0 \; policy accept \; }
+	^	deletes the 'INPUT' named hook
+	
+sudo nft delete chain ip FILTER OUTPUT { type filter hook output priority 0 \; policy accept \; }
+	^	deletes the 'OUTPUT' named hook
+
+sudo nft add rule ip FILTER OUTPUT ip saddr 192.168.0.1 drop
+	^	
+
+sudo nft add rule ip FILTER OUTPUT ip daddr 192.168.0.1 drop
+	^	adds a rule to the FILTER named ip table on the OUTPUT chain to drop all traffic going to destination address 192.168.0.1
+	
+sudo nft add rule ip FILTER INPUT ip daddr 192.168.0.1 drop
+	^	adds a rule to the FILTER named ip table on the INPUT chain to drop al traffic going to destination address 192.168.0.1
+	
+sudo nft list ruleset -a
+	^	list rules with thier handles for all tables
+	
+sudo nft add rule ip FILTER INPUT ct state invalid drop
+	^	adds a rule to the ip table named 'FILTER' on the chain 'INPUT'
+	
+sudo nft add rule ip FILTER INPUT ip frag-off !=0 drop
+	^	blocks fragmented tcp traffic (dont do this)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
