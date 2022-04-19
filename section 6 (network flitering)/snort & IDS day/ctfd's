@@ -1,3 +1,12 @@
 ctfd notes
 ------------
 ssh -p 25 student11@10.50.21.41		:	##getting into ctfd
+
+
+
+
+snort -D -l /usr/sbin/snort -c /etc/snort/snort.conf
+
+
+
+
