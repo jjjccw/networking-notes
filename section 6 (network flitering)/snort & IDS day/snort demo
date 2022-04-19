@@ -1,0 +1,27 @@
++---------------+
+COMMANDS
++---------------+
+
+
+snort -V	:	shows version
+
+snort -D	:	run snort in daemon mode
+
+snort -D -l /var/log/snort -c /etc/snort/snort.conf
+	  ^ logs alerts
+	  
+	  
+cd /var/log/snort
+ls
+
+sudo tcpdump -r <snort_log_file>	:	##reads the log file with tcpdump
+
+sudo tcpdump -r <snort_log_file> -XXvv -n	:	##reads log file but also shows header information in verbose and doesnt auto resolve IP's with DNS
+
+sudo tcpdump -tnr snort.log.1650403421 | awk '{print $2,$3}' | sort	:	##cuts out IP addresses from the capture
+
+sudo tcpdump -tnr snort.log.1650403421 | awk '{print $2,$3}' | sort | uniq -c	:	##cuts out unique IP addresses from the capture 
+
+sudo snort -r snort.log.1650403421	:	use snort to read pcap and get summary
+
+sudo kill -9 <pid>	:	kill your snort 
