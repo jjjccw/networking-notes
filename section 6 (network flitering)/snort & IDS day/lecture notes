@@ -1,1 +1,32 @@
++------------+
+SNORT RULES
++------------+
+
+## Snort is an IDSP/IPS used to filter on traffic through your network
+
+syntax	:	[action] [protocol] [s.ip] [s.port] [direction] [d.ip] [d.port] ( match conditions ;)
+
+
+action		:	alert, log, pass, drop, reject, sdrop
+protocol	:	TCP, UDP, ICMP, IP, etc.
+direction	:	incoming -> or either direction <>
+
+## all snort rules are in snort rules are seperated by semicolons
+
+
+
++------------+
+SNORT EXAMPLES
++------------+
+
+anonymous FTP traffic	:	alert tcp any any -> any 21 (msg:”Anonymous FTP Login”; content: “anonymous”; sid:2121; )
+
+deactivate text search case sensitivity	:	alert tcp any any -> any 21 (msg:”Anonymous FTP Login”; content: “anonymous”; nocase; sid:2121; )
+
+detect ICMP ping sweep		:	alert icmp any any -> 10.1.0.2 any (msg: "NMAP ping sweep Scan"; dsize:0; sid:10000004; rev: 1; )
+
+look for a NoOP sled		:	alert tcp any any -> any any (msg:”NoOp sled”; content: “|9090 9090 9090|”; sid:9090; rev: 1; )
+
+===========================================================================================================================================================
+
 
