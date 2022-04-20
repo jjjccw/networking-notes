@@ -1,0 +1,11 @@
+10.50.24.228	:	Floating IP of start pivot
+
+net11_student11:password11	:	credentials
+
+/usr/share/cctc/	:	important directory
+
+which nmap telnet tcpdump wireshark nc wget	:	tools reconnaissance command
+
+port range	:	11100-11199
+
+echo "<stuff>" | base64		:	converting flag to base64 in terminal
