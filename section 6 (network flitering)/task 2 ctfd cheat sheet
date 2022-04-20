@@ -4,3 +4,12 @@ sudo iptables -t nat -A POSTROUTING -o eth0 -s 192.168.1.10 -j SNAT --to 172.16.
 
 
 
+
+iptables NAT t6 nft   :   be33fe60229f8b8ee22931a3820d30ac
+---------------------
+sudo nft add table ip NAT
+sudo nft add chain ip NAT POSTROUTING {type nat hook postrouting priority 0 \; }
+sudo nft add chain ip NAT PREROUTING {type nat hook postrouting priority 0 \; }
+sudo nft add rule ip NAT POSTROUTING ip saddr 172.16.82.112 oif eth0 snat 192.168.3.30
+
+if doesnt work just flip the ips for the last add rule lol
