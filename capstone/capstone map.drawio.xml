@@ -1,2 +1,304 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2022-04-21T03:40:00.344Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="rNQ0YRAqxUTNjJ85ns3o" version="17.4.5" type="device"><diagram id="18NJt1Q2IvKMd64_qgTL" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-21T23:14:05.987Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="sE8w6VLd1ODz0to33gvn" version="17.4.6" type="github">
+  <diagram id="18NJt1Q2IvKMd64_qgTL" name="Page-1">
+    <mxGraphModel dx="1748" dy="4202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WmiCkMkFAD6RmXrSHDJs-1" target="zMr2XmRBRcxp14O6AmG5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WmiCkMkFAD6RmXrSHDJs-1" target="0JJJ91Ly3mf2qvVSjh0C-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WmiCkMkFAD6RmXrSHDJs-1" value="INTERNET HOST (AP)&lt;br&gt;10.10.0.40&lt;br&gt;&lt;br&gt;port 11100 -&amp;gt; capstone-06 port 7777" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="315" y="320" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WmiCkMkFAD6RmXrSHDJs-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="927" as="sourcePoint" />
+            <mxPoint x="-280" y="927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmiCkMkFAD6RmXrSHDJs-3" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="927" as="sourcePoint" />
+            <mxPoint x="-280" y="1097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmiCkMkFAD6RmXrSHDJs-4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-460" y="1097" as="sourcePoint" />
+            <mxPoint x="-120" y="1097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmiCkMkFAD6RmXrSHDJs-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="520" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WmiCkMkFAD6RmXrSHDJs-6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190.48" y="520" as="sourcePoint" />
+            <mxPoint x="-190.48" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMr2XmRBRcxp14O6AmG5-1" value="BOX: capstone-01&lt;br&gt;IP: 10.50.24.228&lt;br&gt;&lt;br&gt;&lt;br&gt;Ports:&amp;nbsp; 22, 80&lt;br&gt;Interfaces/Subnets: eth0, 10.1.1.30/25&lt;br&gt;Tools? tcpdump, wireshark&lt;br&gt;&lt;br&gt;&quot;This system seems to be a pivot for the Network Fundamentals and Programming sections&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="940" y="210" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0JJJ91Ly3mf2qvVSjh0C-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1109.9999999999995" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-3" value="eth0" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-5" value="10.1.1.30/25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="1060" as="targetPoint" />
+            <mxPoint x="950" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-6" value="10.1.1.11&lt;br&gt;capstone-02&lt;br&gt;ports: 21 23 1918(web)&amp;nbsp;&lt;br&gt;int/subnets: eth0 /10.1.1.11/25&lt;br&gt;tools: tcpdump, wireshark&lt;br&gt;files:&lt;br&gt;hint-02a:&quot;There is a webservice running on the port that corresponds with the RFC that governs private IPv4 Addressing&quot;&lt;br&gt;&lt;br&gt;hint-02b: &quot;There is a PCAP saved in the share folder of this machine that you should look at&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="820" y="1070" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="760" as="sourcePoint" />
+            <mxPoint x="2430" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.532;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="0JJJ91Ly3mf2qvVSjh0C-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1340" as="targetPoint" />
+            <mxPoint x="1170" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-10" value="capstone-03&lt;br&gt;10.1.1.25&lt;br&gt;ports: 21, 791 (web)&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;hint-03a: &quot;There is a webservice running on the port that corresponds with the RFC that governs IPv4 Header Structure&quot;&lt;br&gt;&lt;br&gt;hint-03b: &quot;There is a listening TCP port on this system that is waiting for connections. Build a Python3 TCP Stream sender and send it thru your tunnel to say &#39;Hi&#39;&lt;br&gt;Send your message as a bytes-like object and decode the response to/from UTF-8 to get the flag.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1400" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="0JJJ91Ly3mf2qvVSjh0C-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="1360" as="targetPoint" />
+            <mxPoint x="1715" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="0JJJ91Ly3mf2qvVSjh0C-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1715" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-14" value="10.1.1.33&lt;br&gt;capstone-04&lt;br&gt;ports: 21, 23, 80&lt;br&gt;int/subnets: eth0, 10.1.1.33&lt;br&gt;eth1, 1.1.1.1/29&lt;br&gt;&lt;br&gt;tools: wireshark, tcpdump&lt;br&gt;files:&lt;br&gt;hint-04a: &quot;There is another box (Capstone-05) on a different network that only this system can see, trying to attack this box, on one of the ports associated with the W32/Blaster Worm. Find out what message it is trying to send.&quot; ((rpc bind 135 -&amp;gt; 4444))&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;hint-04b: &quot;RIPv2 seems to be running on the 10.1.1.0/25 network. Try to filter it out. FInd out what networks it is advertising in its updates. What you find will be the IP address of the next environment pivot to access from your INTERNET_HOST. Since you are not able to use wireshark, I would suggest you copy and paste the hexdump to another packet decoder.&quot; ((udp 520))" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="1370" width="370" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="0JJJ91Ly3mf2qvVSjh0C-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2000" y="1120" as="targetPoint" />
+            <mxPoint x="2000" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-16" value="VyOS&lt;br&gt;10.1.1.125&lt;br&gt;ports: 125 (ssh)&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1900" y="1130" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="0JJJ91Ly3mf2qvVSjh0C-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="1360" as="targetPoint" />
+            <mxPoint x="2295" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-18" value="10.1.1.126&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="2190" y="1370" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-23" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="855" y="-920" as="sourcePoint" />
+            <mxPoint x="1415" y="-920" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-26" value="captsone-05&lt;br&gt;1.1.1.2&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="2180" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="2180" as="targetPoint" />
+            <mxPoint x="1540" y="1910" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-29" value="1.1.1.6&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="2180" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="2180" as="targetPoint" />
+            <mxPoint x="1880" y="1910" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-31" value="1.1.1.1/29 network&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1785" y="1880" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="0JJJ91Ly3mf2qvVSjh0C-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1135" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-33" value="capstone-06&lt;br&gt;10.50.27.11/32&lt;br&gt;ports: 80 (http)&amp;nbsp; 7777 (ssh)&lt;br&gt;int/subnets: eth0, 10.2.2.6/28&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-06a: &quot;SSH is running on a higher port although it only seems to accept connections when it looks like its coming from a Cisco Device&#39;s TTL. Try using iptables to adjust your sending TTL. The flag for this system is the http port number.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-300" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-35" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460" y="1920" as="sourcePoint" />
+            <mxPoint x="2020" y="1920" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-36" value="10.2.2.6/28 network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="910" y="-950" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="-1190" as="targetPoint" />
+            <mxPoint x="1050" y="-920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="-1190" as="targetPoint" />
+            <mxPoint x="1270" y="-920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0JJJ91Ly3mf2qvVSjh0C-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="-1833.134765625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-40" value="capstone-07&lt;br&gt;10.2.2.7&lt;br&gt;ports: 23 (telnet)&amp;nbsp; 80 (http) 2222 (ssh)&lt;br&gt;int/subnets: eth0, 10.2.2.7/28 (obvious)&lt;br&gt;eth1, 10.10.10.129/25 (new)&lt;br&gt;tools: wireshark, tcpdump&lt;br&gt;files: none tbh&lt;br&gt;&lt;br&gt;hint-07a: &quot;SSH is running on a higher port but it&amp;nbsp; is not accessible from the outside. It also seems to use different credentials than what other systems use. How can we intercept these credentials? Maybe another system has a tool that can help us. The flag for this system is the password you find comnverted to base64. Credentials for this system will be exactly what you find.&lt;br&gt;&lt;br&gt;&lt;br&gt;net1_student11:Netflix and Chill" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-1510" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="0JJJ91Ly3mf2qvVSjh0C-41" value="10.2.2.14&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="-1400" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-4" value="10.10.10.128/25 network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-1870" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="-1840" as="sourcePoint" />
+            <mxPoint x="2080" y="-1840" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740.0000000000005" y="-2160.004765625" as="targetPoint" />
+            <mxPoint x="740.0000000000005" y="-1836.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cUsz6TRxX3y6697R_Y3s-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="-2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-8" value="capstone-08&lt;br&gt;10.10.10.140&lt;br&gt;ports: 21 (ftp), 301(ssh)&lt;br&gt;int/subnets: eth0, 10.10.10.140/25&lt;br&gt;&lt;br&gt;eth1, 192.168.10.44/&lt;br&gt;&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-08a: SSH is running on the port that corresponds with the HTTP status code for &#39;Moved Permanently&#39;. The flag for this system is the port number converted to base64.&quot;&lt;br&gt;&lt;br&gt;hint-08b: This system seems to be a pivot for the network reconnaissance section." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-2460" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=1.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cUsz6TRxX3y6697R_Y3s-9" target="cUsz6TRxX3y6697R_Y3s-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-9" value="capstone-10&lt;br&gt;10.10.10.167&lt;br&gt;ports: 80 (http), 404(ssh)&lt;br&gt;int/subnets: eth0, 10.10.10.167/25&lt;br&gt;&lt;br&gt;eth1, 192.168.10.70/27&lt;br&gt;&lt;br&gt;tools: wireshark, tcpdump&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-10a: &quot;SSH is running on the port that corresponds with the HTTP status code for &#39;Not Found&#39;. The flag for this system is the port number converted to base64&quot;&lt;br&gt;&lt;br&gt;hint-10b: &quot;This system seems to be a pivot for the movement and redirection section." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-2460" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150.0000000000005" y="-2160.004765625" as="targetPoint" />
+            <mxPoint x="1150.0000000000005" y="-1836.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470.0000000000005" y="-2160.004765625" as="targetPoint" />
+            <mxPoint x="1470.0000000000005" y="-1836.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-12" value="10.10.10.182&lt;br&gt;ports:21, 504 (ssh)&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-12a: &quot;SSH is running on the port that corresponds with the HTTP status code for Gawteway Timeout The flag for this system is the port number converted to base64.&quot;&lt;br&gt;&lt;br&gt;hint-12b: &quot;This system seems to be a pivot for the Network Analyis and Filtering sections.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-2450" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820.0000000000005" y="-2160.004765625" as="targetPoint" />
+            <mxPoint x="1820.0000000000005" y="-1836.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-14" value="10.10.10.254&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-2450" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-17" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22760%22%20y%3D%22-2890%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22780%22%20y%3D%22-2460%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-2340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-19" value="192.168.10.32/27 network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="-2340" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-21" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="-2130" as="sourcePoint" />
+            <mxPoint x="280" y="-2130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-340" y="-1760" as="targetPoint" />
+            <mxPoint x="-340" y="-2130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-23" value=".33-.62" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-2160" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-24" value="192.168.10.39&lt;br&gt;ports: 21 (ftp), 3790 (msf web)&amp;nbsp;&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-09a: &quot;There is a web service running on this machine that is on the same port that metasploit uses for its webservice.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-1756" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-25" value="192.168.10.62&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-1755" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-1760" as="targetPoint" />
+            <mxPoint x="110" y="-2130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cUsz6TRxX3y6697R_Y3s-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="977.2100000000005" y="-2850.004765625" as="targetPoint" />
+            <mxPoint x="977.21" y="-2790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-28" value="192.168.10.80&lt;br&gt;ports: 21(tcp) 9050 (tor-socks)&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-11a: &quot;There is a webservice running on the port that corresponds with th edefault port for proxychains&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-3131" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-29" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="-2790" as="sourcePoint" />
+            <mxPoint x="1480" y="-2790" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-30" value="192.168.10.64/27 network (.65-.94)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-2810" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-32" value="192.168.10.94&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="-3131" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1356.5299999999997" y="-2896.705" as="targetPoint" />
+            <mxPoint x="1360" y="-2790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
