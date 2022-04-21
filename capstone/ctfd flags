@@ -31,3 +31,21 @@ NOTES
 	 
 	 
 	 sudo iptables -t mangle -A POSTROUTING -j TTL --ttl-set 255	:	set your packet outgoing TTL to 255
+	 
+	 
+	 
+	 
+	 
+	 
+TUNNELING TO CAPSTONE 7 SSH
+----------------------------
+
+inethost >> ssh net1_student11@10.50.27.11 -p 7777 -L 11110:localhost:7777
+inethost >> ssh net1_student11@localhost -p 11110 -L 11105:10.2.2.7:23
+inethost >> telnet localhost 11105
+cap-07   >> ssh net1_student11@10.2.2.6 -p 7777 -R 11120:localhost:2222
+inethost >> ssh net1_student11@10.50.27.11 -p 7777 -L 11130:localhost:11120
+inethost >> ssh net1_student11@localhost -p 11130 -D 9050
+
+=======================================================================================================================================================
+
