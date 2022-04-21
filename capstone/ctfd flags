@@ -25,3 +25,6 @@ NOTES
 	 tcpdump -r /usr/share/cctc/capstone-bpf.pcap '((ip[6:2] > 0) and (not ip[6] = 64))' | wc -l	:	find amount of fragmented packets
 	 tcpdump -r /usr/share/cctc/capstone-bpf.pcap 'tcp[13]&0xFF=0x05 && ip[6]&64 != 0x0'| wc -l	:	DF flag set and has ONLY the RST and FIN TCP Flags set
 	 tcpdump -r capstone-bpf.pcap 'tcp[13]&0xFF=0x12 && ip[12:4]=0x0A000068' | wc -l		:	find tcp half open/full open scanning going to the 10.0.0.104 ip
+	 
+	 
+	 10.50.27.11/32 (next pivot flag for 
