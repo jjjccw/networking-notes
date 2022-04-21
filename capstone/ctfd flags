@@ -28,3 +28,6 @@ NOTES
 	 
 	 
 	 10.50.27.11/32 (next pivot flag for 
+	 
+	 
+	 sudo iptables -t mangle -A POSTROUTING -j TTL --ttl-set 255	:	set your packet outgoing TTL to 255
