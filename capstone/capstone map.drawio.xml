@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T23:14:05.987Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="sE8w6VLd1ODz0to33gvn" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T01:12:11.962Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="G6kj2bMnIiZPmYP6lVpR" version="17.4.6" type="github">
   <diagram id="18NJt1Q2IvKMd64_qgTL" name="Page-1">
-    <mxGraphModel dx="1748" dy="4202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1748" dy="5302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,17 +224,16 @@
             <mxPoint x="1470.0000000000005" y="-1836.87" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cUsz6TRxX3y6697R_Y3s-12" value="10.10.10.182&lt;br&gt;ports:21, 504 (ssh)&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-12a: &quot;SSH is running on the port that corresponds with the HTTP status code for Gawteway Timeout The flag for this system is the port number converted to base64.&quot;&lt;br&gt;&lt;br&gt;hint-12b: &quot;This system seems to be a pivot for the Network Analyis and Filtering sections.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="-2450" width="290" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="cUsz6TRxX3y6697R_Y3s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cUsz6TRxX3y6697R_Y3s-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1820.0000000000005" y="-2160.004765625" as="targetPoint" />
-            <mxPoint x="1820.0000000000005" y="-1836.87" as="sourcePoint" />
+            <mxPoint x="2200" y="-2600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-12" value="capstone-12&lt;br&gt;10.10.10.182&lt;br&gt;ports:21, 504 (ssh)&lt;br&gt;int/subnets:&amp;nbsp;&lt;br&gt;&lt;br&gt;eth1 , 192.168.10.99/27&lt;br&gt;&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;&lt;br&gt;hint-12a: &quot;SSH is running on the port that corresponds with the HTTP status code for Gawteway Timeout The flag for this system is the port number converted to base64.&quot;&lt;br&gt;&lt;br&gt;hint-12b: &quot;This system seems to be a pivot for the Network Analyis and Filtering sections.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-2450" width="290" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="cUsz6TRxX3y6697R_Y3s-14" value="10.10.10.254&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="-2450" width="290" height="290" as="geometry" />
+          <mxGeometry x="1850" y="-1640" width="290" height="290" as="geometry" />
         </mxCell>
         <mxCell id="cUsz6TRxX3y6697R_Y3s-17" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20style%3D%22edgeStyle%3DorthogonalEdgeStyle%3Brounded%3D0%3BorthogonalLoop%3D1%3BjettySize%3Dauto%3Bhtml%3D1%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22760%22%20y%3D%22-2890%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20x%3D%22780%22%20y%3D%22-2460%22%20as%3D%22sourcePoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="-2340" width="20" height="20" as="geometry" />
@@ -297,6 +296,55 @@
             <mxPoint x="1356.5299999999997" y="-2896.705" as="targetPoint" />
             <mxPoint x="1360" y="-2790" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.554;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cUsz6TRxX3y6697R_Y3s-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2010" y="-2160.004765625" as="targetPoint" />
+            <mxPoint x="2010" y="-1836.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-37" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1870" y="-2600" as="sourcePoint" />
+            <mxPoint x="3076.555047286184" y="-2600" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-38" value="192.168.10.96/27" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="-2630" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930.000000000001" y="-2920.004765625" as="targetPoint" />
+            <mxPoint x="1930.000000000001" y="-2596.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-40" value="&lt;div&gt;capstone-13&lt;/div&gt;192.168.10.101&lt;br&gt;ports:&lt;br&gt;584 (http)&lt;br&gt;21/tcp&lt;br&gt;22/ssh&lt;br&gt;444/tcp&lt;span&gt;	&lt;/span&gt;:&lt;span&gt;	&lt;/span&gt;Ransomware is more about manipulating vulnerabilities in human psychology than the adversary&#39;s technological sophistication&lt;br&gt; James Scott, Sr. Fellow, Institute for Critical Infrastructure Technology&lt;br&gt;&lt;br&gt;801/tcp :&amp;nbsp;&lt;span&gt;CryptoLocker, an encrypting Trojan horse, occured from 5 September 2013 to late May 2014.&lt;/span&gt;&lt;div&gt;The Trojan targeted computers running Microsoft Windows, propagating via infected email attachments and via an existing Gameover ZeuS botnet.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;999/tcp :&amp;nbsp;&lt;span&gt;Bad Rabbit was discovered by users in Russia and Ukraine on 24 October 2017.&lt;/span&gt;&lt;div&gt;It follows similar patterns to WannaCry and Petya by encrypting the user&#39;s file tables, demanding a Bitcoin payment to decrypt them.&lt;/div&gt;&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;hint-13a: &quot;There is a webservice running on the port that is the sum of the 2 SMB ports used by the WannaCry Ransomeware.&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="-3320" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2360.000000000001" y="-2920.004765625" as="targetPoint" />
+            <mxPoint x="2360.000000000001" y="-2596.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-43" value="capstone-14&lt;br&gt;192.168.10.111&lt;br&gt;ports:&lt;br&gt;21/ftp&lt;br&gt;22/ssh&lt;br&gt;88/tcp&lt;br&gt;&lt;div&gt;Security used to be an inconvenience sometimes, but now it is a necessity all the time.&lt;/div&gt;&lt;div&gt;&amp;nbsp;Martina Navratilova&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1999/tcp&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:&lt;br&gt;hint-14a: There is a webservice running on the port that falls in the expanded Extended Cisco Numbered ACL Range.&lt;br&gt;&lt;br&gt;hint-14b: &quot;Snort is running on this machine. Maybe you should take&amp;nbsp; look through its file locations.&quot;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="-3350" width="430" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2760.000000000001" y="-2920.004765625" as="targetPoint" />
+            <mxPoint x="2760.000000000001" y="-2596.87" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-45" value="LIKELY IGNORE&lt;br&gt;&lt;br&gt;192.168.10.126&lt;br&gt;ports:&lt;br&gt;int/subnets:&lt;br&gt;tools:&lt;br&gt;files:" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="-3160" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-46" value="&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 1:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Which ip address initiated the attack against the FTP server?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the ip address in the x.x.x.x format and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 2:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How many failed attempts to guess the FTP password?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide number and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 3:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is the correct FTP password?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the exact password and converted to Base64.&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 4:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is the system IP that was compromised?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the ip address in the x.x.x.x format and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 5:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is the FTP version?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the version number only and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 6:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is the name of the file taken by the attacker?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the filename exactly as shown and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 7:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What was the message contained within the extracted file?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the message exactly as shown and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 8:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is the name of the file uploaded by the attacker?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the filename exactly as shown and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="-4310" width="380" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="cUsz6TRxX3y6697R_Y3s-47" value="&lt;div&gt;------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 1:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How many rule files are on the system?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the number converted to Base64 as your answer.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 2:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How many of the rules are being used to match for traffic?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide the number converted to Base64 as your answer.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 3:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Which rule will look for someone doing a null scan ?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide only the filename as your answer (i.e. ‘file.rules’) and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 4:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is the exact Alert Message that is being triggered on the system?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Convert the exact message as you see it and convert it to Base64 for your answer.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Question 5:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;From what IP is the attack coming from?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Provide your answer in the x.x.x.x format and converted to Base64.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="-3930" width="460" height="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
